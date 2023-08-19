@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Age and Time Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div>
+        <a href="home.html">Home</a>
+      </div>
+
+    <div>
+      <a href="sc.html">Scientific Calculator</a>
+    </div>
+    <div>
+      <a href="index.html">Age Time Calculator</a>
+    </div>
+    
+  </nav>
+  <div class="heading"><h1>Age Calculator</h1></div>
+  <div class="container">
+    
+    <label for="birthdate">Enter your birthdate:</label>
+    <input type="date" id="birthdate">
+
+    <label for="birthtime">Enter your birth time:</label>
+    <input type="time" id="birthtime">
+
+    <button onclick="calculateAgeAndTime()">Calculate Age and Time</button>
+   
+  </div>
+  <div id="result"></div>
+  <script src="script.js"></script>
+</body>
+</html>
